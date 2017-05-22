@@ -1,10 +1,10 @@
-# SMS Gateway notifications channel for Laravel 5.3
+# SMS Gateway notifications channel for Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nerdify/laravel-smsgateway-notification-channel.svg?style=flat-square)](https://packagist.org/packages/nerdify/laravel-smsgateway-notification-channel)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![StyleCI](https://styleci.io/repos/73677449/shield)](https://styleci.io/repos/73677449)
 
-This package makes it easy to send notifications using [SMS Gateway](https://smsgateway.me/sms-api-documentation/getting-started) with Laravel 5.3.
+This package makes it easy to send notifications using [SMS Gateway](https://smsgateway.me/sms-api-documentation/getting-started) with Laravel.
 
 ## Contents
 

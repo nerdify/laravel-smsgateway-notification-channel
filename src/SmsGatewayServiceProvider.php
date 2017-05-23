@@ -2,8 +2,8 @@
 
 namespace Nerdify\SmsGateway;
 
-use Illuminate\Support\ServiceProvider;
 use GuzzleHttp\Client as HttpClient;
+use Illuminate\Support\ServiceProvider;
 
 class SmsGatewayServiceProvider extends ServiceProvider
 {

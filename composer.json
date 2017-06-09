@@ -1,13 +1,13 @@
 {
     "name": "nerdify/laravel-smsgateway-notification-channel",
-    "description": "This package makes it easy to send notifications using SMS Gateway with Laravel 5.3.",
+    "description": "This package makes it easy to send notifications using SMS Gateway with Laravel.",
     "homepage": "https://github.com/nerdify/laravel-smsgateway-notification-channel",
     "license": "MIT",
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.6.4",
         "guzzlehttp/guzzle": "^6.2",
-        "illuminate/notifications": "5.3.*|5.4.*",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*"
+        "illuminate/notifications": "5.3 - 5.4",
+        "illuminate/support": "5.3 - 5.4"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.5",
@@ -28,5 +28,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nerdify\\SmsGateway\\SmsGatewayServiceProvider"
+            ]
+        }
     }
 }
